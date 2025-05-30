@@ -1,0 +1,79 @@
+Formatting:
+	- space between values and units: '12.3 ℉'
+	- no '.123' decimals, must use leading zero: '0.123'
+	- must use '\hfill' before equation number
+	- use '\times' for multiplication if it's ambiguous without
+
+	- the formula numbering is mayebe not the best possible, it can be updated (e.g. sections, 1.1, 1.2...)
+
+FORMULA 1: 
+FORMULA 2: 
+FORMULA 3: 
+FORMULA 4: w_{o} = w_{t}r/(r+1) = 0.293lb/sec\hfill(4)
+FORMULA 5: w_{f} = w_{t}/(r+1) = 0.117lb/sec\hfill(5)
+FORMULA 6: w_{t} = w_{o} + w_{f}\hfill(6)
+FORMULA 7: A_{t} = w_{t}/P_{t} \sqrt{R T_{t}/\gamma g_c}\hfill(7)
+FORMULA 8: T_{t} = T_{c} \left [ \frac{1}{1+ \frac{\gamma-1} {2}}  \right ] \hfill (8)
+FORMULA 9: T_{t} = (0.909)(T_{c}) \hfill(9)
+FORMULA 10: T (\degree R) = T (\degree F) + 460 \hfill(10)
+FORMULA 11: P_t = P_c \left [ 1+\frac{\gamma-1}{2} \right ] ^{-\frac{\gamma}{\gamma-1}} \hfill(11)
+FORMULA 12: P_t = (0.564)(P_c)\hfill(12)
+FORMULA 13: M_e^2 = \frac{2}{\gamma-1} \left [ (\frac{P_c}{P_{atm}})^{\frac{\gamma-1}{\gamma}} - 1  \right ] \hfill(13)
+FORMULA 14: A_e = \frac{A_t}{M_e}  \left [ \frac{1 + \frac{\gamma-1}{2} M_e^2}{(\gamma+1)/2} \right ]  ^{\frac{\gamma+1}{2(\gamma-1)}} \hfill (14)
+FORMULA 15: A_e = A_t (A_e/A_t) \hfill (15)
+FORMULA 16: T_e = T_c (T_e/T_c) \hfill (16)
+FORMULA 17: D_t = \sqrt{4A_t/\pi} \hfill (17)
+FORMULA 18: D_e = \sqrt{4A_e/\pi} \hfill (18)
+FORMULA 19: L* = V_c/A_t \hfill (19)
+FORMULA 20: A_c = \pi D_c^2/4 \hfill (20)
+FORMULA 21: V_c = A_c L_c + convergent \ volume \hfill (21)
+FORMULA 22: V_c = 1.1(A_c L_c) \hfill (22)
+FORMULA 23: S = PD/2t_w \hfill (23)
+FORMULA 24: t_w = PD/16000 \hfill (24)
+FORMULA 25: Q = q A = w_w c_p (T - T_i) \hfill (25)
+FORMULA 26: w = C_d A \sqrt{2g \rho \Delta P} \hfill (26)
+FORMULA 27: v = C_d \sqrt{2g (\Delta P/ \rho)} \hfill (27)
+
+FORMULA 28: w_t = F/I_{sp} = 20/260 = 0.077 lb/sec \hfill (28)
+FORMULA 29: w_f = w_t/(r + 1) = 0.077/3.5 = 0.022 lb/sec \hfill (29)
+FORMULA 30: w_o = 0.077 - 0.022 = 0.055 lb/sec \hfill (30)
+FORMULA 31: T_t = 0.909(T_c) = 0.909 \times 6202 = 5650\ \degree R \hfill (31)
+FORMULA 32: P_t = 0.564 (P_c) = 0.564 \times 300 = 169\ psi \hfill (32)
+FORMULA 33: A_t = w_t/P_t \times (RT_t/\gamma g_c)^{(1/2)} \hfill (33)
+FORMULA 34: A_t = (9.077/169) \times 9500^{1/2} = 0.0444\ in^2 \hfill (34)
+FORMULA 35: D_t = (4A_t/\pi)^{1/2} = 0.0566^{1/2} = 0.238\ in \hfill (35)
+FORMULA 36: A_e = 3.65 A_t = 3.655 \times 0.0444 = 0.162\ in^2 \hfill (36)
+FORMULA 37: D_e = (4A_e/\pi)^{1/2} = 0.2065^{1/2} = 0.4555\ in \hfill (37)
+FORMULA 38: V_c = L* A_t = 60 \times 0.0444 = 2.67\ in^3 \hfill (38)
+FORMULA 39: V_c = 1.1(A_c L_c) \hfill (39)
+FORMULA 40: L_c = V_c/(1.1 \times 1.13) = 2.67/1.245 = 2.15\ in \hfill (40)
+FORMULA 41: t_w = PD/16000 = 300 \times 1.2/16000 = 0.0225\ in \hfill (41)
+FORMULA 42: A = \pi (D_c + 2t_w)(L_c) + area\ of\ nozzle\ cone \hfill (42)
+FORMULA 43: A = 9.4\ in^2 + area\ of\ nozzle\ cone \hfill (43)
+FORMULA 44: A = 1.1 \times 9.4 = 10.35\ in^2 \hfill (44)
+FORMULA 45: Q = q A = 3 \times 10.35 = 31\ Btu/sec \hfill (45)
+FORMULA 46: w_w = Q/\Delta T \hfill (46)
+FORMULA 47: w_w = 31/40 = 0.775\ lb/sec \hfill (47)
+FORMULA 48: v_w = w_w/\rho A \hfill (48)
+FORMULA 49: A = (\pi/4) (D_2^2 - D_1^2) \hfill (49)
+FORMULA 50: D_1 = D_c + 2t_w \hfill (50)
+FORMULA 51: D_2 = \sqrt{\frac{4w_w}{v_w \rho \pi} + D_1^2} \hfill (51)
+FORMULA 52: D_2 = 0.0151^{1/2} = 0.123\ ft = 1.475\ in \hfill (52)
+FORMULA 53: D_2 - D_1 = 0.085\ in \hfill (53)
+FORMULA 54: w_f = 0.022\ lb/sec = 1.32\ lb/min \hfill (54)
+FORMULA 55: A = w_f/C_d \times (2 g \rho \Delta P)^{1/2} \hfill (55)
+FORMULA 56: A = \frac{0.022}{0.7 \times 6430} = 0.0000049\ ft^2 \hfill (56)
+FORMULA 57: A = 0.000706\ in^2 \hfill (57)
+FORMULA 58: D = (4A\pi )^{1/2} = 0.0009^{1/2} = 0.030\ in \hfill (58)
+FORMULA 59: D = 0.00045^{1/2} = 0.021\ in  \hfill (59)
+FORMULA 60: \rho_2 = \rho_1 (P_2/P_1) = 2.26\ lb/ft^3  \hfill (60)
+FORMULA 61: A = w_o/ \rho v_o \hfill (61)
+FORMULA 62: A = \frac{0.055}{2.26 \times 200} = 0.0001217\ ft^2 \hfill (62)
+FORMULA 63: A = 0.0175\ in^2 \hfill (63)
+FORMULA 64: D = 0.00558^{1/2} = 0.0747\ in \hfill (64)
+FORMULA 65: t_w = PD/2S \hfill (65)
+FORMULA 66:
+FORMULA 67:
+FORMULA 68:
+FORMULA 69:
+FORMULA 70:
